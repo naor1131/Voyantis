@@ -13,9 +13,9 @@ cd server
 npm start
 ```
 
-## Navigate to the Server and run it:
+## Navigate to the Client and run it:
 
-Go to the server folder:
+Go to the client folder:
 
 ```bash
 cd client
