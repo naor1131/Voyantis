@@ -1,0 +1,13 @@
+.queue-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.selected-item {
+  background-color: cornflowerblue;
+}
