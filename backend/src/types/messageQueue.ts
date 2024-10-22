@@ -7,13 +7,13 @@ class MessageQueue {
   private queues: { [key: string]: Message[] } = {};
 
   constructor() {
-    this.addMessage("queue1", "first message");
-    this.addMessage("queue1", "second message");
-    this.addMessage("queue1", "third message");
+    this.addMessage("queue1", "hello everyone");
+    this.addMessage("queue1", "this is amazing");
+    this.addMessage("queue1", "life is cool");
 
-    this.addMessage("queue2", "first message");
-    this.addMessage("queue2", "second message");
-    this.addMessage("queue2", "third message");
+    this.addMessage("queue2", "where is the jacket");
+    this.addMessage("queue2", "it is winter");
+    this.addMessage("queue2", "drink water everyday");
   }
 
   // Add a message to the queue

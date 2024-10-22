@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     getAllQueues();
-  }, []);
+  }, [nextMessage]);
 
   const getAllQueues = async () => {
     const allQueues = await fetchQueues();

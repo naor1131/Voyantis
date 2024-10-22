@@ -1,5 +1,4 @@
 import express, { Request, Response, Router } from "express";
-import * as queueController from "../controllers/queue-controller";
 import messageQueue from "../types/messageQueue";
 
 const router: Router = express.Router();
