@@ -17,7 +17,7 @@ router.post("/queues/:queue_name", (req: Request, res: Response) => {
 
 router.get("/queues/:queue_name", (req: Request, res: Response) => {
   const queueId = req.params.queue_name;
-  const timeout = parseInt(req.query.timeout as string) || 10000;
+  const timeout = parseInt(req.query.timeout as string) || 2000; //changed it from 10 seconds so it would be easier to test
 
   setTimeout(() => {
     const nextMessage = messageQueue.getNextMessage(queueId);
